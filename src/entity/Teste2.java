@@ -17,7 +17,7 @@ public class Teste2 {
 		ImageIcon icon5 = new ImageIcon("src/imagem/bolsa-de-dinheiro_1.png");
 		ImageIcon icon6 = new ImageIcon("src/imagem/euro_3.png");
 		ImageIcon icon7 = new ImageIcon("src/imagem/real-brasileiro_50.png");
-		ImageIcon icon8 = new ImageIcon("src/imagem/pergunta_2.png");
+		ImageIcon icon8 = new ImageIcon("src/imagem/pergunta.png");
 		ImageIcon icon9 = new ImageIcon("src/imagem/trabalhador.png");
 		ImageIcon icon10 = new ImageIcon("src/imagem/aplausos.png");
 		ImageIcon icon11 = new ImageIcon("src/imagem/peso_48.png");
@@ -136,7 +136,7 @@ public class Teste2 {
 						fahrenheit.FahrenheitParaCelsius(temp.doubleValue());
 						JOptionPane
 								.showMessageDialog(null,
-										"       A conversão de " + temp + " °F\n             deu em "
+										"       A conversão de " + temp + " °F\n            deu em "
 												+ fahrenheit.getF() + " °C",
 										"Mensagem ao Usuário", JOptionPane.INFORMATION_MESSAGE, icon13);
 					}
